@@ -19,6 +19,7 @@
             Console.WriteLine(c.Name + " " + c.LastName + ": " + c.PhoneNumber);
         }
     }
+    
     public class Contact // модель класса
     {
         public Contact(string name, string lastName, long phoneNumber, String email) // метод-конструктор
